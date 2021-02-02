@@ -346,24 +346,228 @@
             "duracao": "Permanente",
             "resistencia": "Vontade anula"
         },
-        "descricao": "Esta magia lhe concede um rosto idealizado, porte físico garboso, voz melodiosa e olhar sedutor, deixando-o mais atraente e confiável. Enquanto a magia estiver ativa, seu Carisma torna-se 20 (ou recebe um bônus de +4, caso seja 20 ou maior) e você recebe +5 nos testes de Diplomacia e Enganação. Quando a magia acaba, quaisquer observadores percebem a mudança e tendem a suspeitar de você. Da mesma maneira, pessoas que o viram sob o efeito da magia sentirão que “algo está errado” ao vê-lo em condições normais. Quando a cena acabar, você pode gastar os PM da magia novamente como uma ação livre para mantê-la ativa. Este efeito não fornece PV ou PM adicionais.",
+        "descricao": "Você cria uma prisão mágica para aprisionar uma criatura. Se falhar no teste de resistência, o alvo sofre o efeito da magia; se passar, fica imune a esta magia por uma semana. Enquanto estiver aprisionada, a criatura não precisa respirar e alimentar-se, e não envelhece. Magias de adivinhação não conseguem localizar ou perceber o alvo. Ao lançar a magia, você escolhe uma das seguintes formas de prisão. O componente material varia, mas todos custam T$ 1.000. Acorrentamento: o alvo é preso por correntes firmemente enraizadas no chão, que o mantém no lugar. O alvo fica paralisado e não pode se mover ou ser movido por qualquer meio. Componen-te Material: uma fina corrente de mitral. Contenção Mínima: o alvo diminui para uma altura de 2 centímetros e é preso dentro de uma pedra preciosa ou objeto semelhante. A luz pode passar atra-vés da pedra preciosa normalmente (permitindo que o alvo veja o lado de fora e outras criaturas o vejam), mas nada mais pode passar, nem por meio de teletransporte ou viagem planar. A pedra não pode ser quebrada enquanto o alvo estiver dentro. Componente Material: uma pedra preciosa, como um dia-mante ou rubi.Prisão Dimensional: o alvo é transporta-do para um pequeno semiplano protegido contra teletransporte e viagens planares. O semiplano pode ser um labirinto, uma gaiola, uma torre ou qualquer estrutura ou área confinada similar de sua escolha. Componente Material:uma representação em miniatura da prisão, feita de jade. Sepultamento: o alvo é sepultado bem fundo abaixo da terra, dentro de uma esfera de força mágica. Nada pode destruir ou atravessar a esfera, nem mesmo teletransporte ou viagens planares. Componente Material: um pequeno orbe de adamante. Sono Eterno: o alvo adormece e não pode ser acordado. Componente Material: fruta preparada com ervas soníferas raras. Quando a magia é lançada, você deve especificar uma condição que fará com que ela termine e solte o alvo. A condição pode ser tão específica ou elaborada quanto você quiser, mas deve ser possível de acontecer. As condições podem se basear no nome, identidade ou divindade padroeira de uma criatura, ou em ações ou qualidades observáveis, mas nunca em estatísticas intangíveis, como nível, classe ou pontos de vida. O mestre tem a palavra final sobre se uma condição é válida ou não. Dissipar Magia pode dissipar o efeito, mas deve ser conjurada com o aprimoramento de 5º círculo e alvo na prisão.",
+      "truque": {
+            "existe": false,
+            "descricao": ""
+        },
+        "melhoramentos": []
+    },
+    "area_escorregadia": {
+        "id": 15,
+        "nome": "Área Escorregadia",
+        "tipo": "Arcana",
+        "circulo": 1,
+        "escola": "Convocação",
+        "info": {
+            "execucao": "Padrão",
+            "alcance": "Curto",
+            "alvo": "Quadrado de 3m ou 1 objeto",
+            "duracao": "Cena",
+            "resistencia": "Reflexos (veja texto)"
+        },
+        "descricao": "Esta magia recobre uma superfície com uma substância gordurosa e escorregadia. Criaturas na área devem passar na resistência para não cair. Nas rodadas seguintes, criaturas que tentem movimentar-se pela área devem fazer testes de Acrobacia para equilíbrio (CD 10). Área Escorregadia pode tornar um item escorregadio. Uma criatura segurando um objeto afetado deve passar na resistência para não deixar o item cair cada vez que usá-lo.",
         "truque": {
             "existe": false,
             "descricao": ""
         },
         "melhoramentos": [
-            { "custo": 1, "efeito": "Muda o alcance para toque e o alvo para 1 humanoide."}
+            { "custo": 1, "efeito": "Aumenta a área em +1 quadrado de 1,5m."},
+            { "custo": 2, "efeito": "Muda a CD dos testes de Acrobacia para 15."},
+            { "custo": 5, "efeito": "Muda a CD dos testes de Acrobacia para 20."}
         ]
     },
-    "area_escorregadia": {},
-    "arma_espiritual": {},
-    "arma_magica": {},
-    "armadura_arcana": {},
-    "armamento_da_natureza": {},
-    "assassino_fantasmagorico": {},
-    "augurio": {},
-    "aura_divina": {},
-    "aviso": {},
+    "arma_espiritual": {
+        "id": 16,
+        "nome": "Arma Espiritual",
+        "tipo": "Divina",
+        "circulo": 1,
+        "escola": "Convocação",
+        "info": {
+            "execucao": "Padrão",
+            "alcance": "Pessoal",
+            "alvo": "Você",
+            "duracao": "Cena",
+            "resistencia": "-"
+        },
+        "descricao": "Você invoca a arma preferida de sua divindade, que surge flutuando a seu lado. Uma vez por rodada, quando você sofre um ataque corpo a corpo, pode usar uma reação para que a arma cause automaticamente 2d6 pontos de dano do tipo da arma — por exemplo, uma espada longa causa dano de corte — no oponente que fez o ataque. Esta magia se dissipa se você morrer.",
+        "truque": {
+            "existe": false,
+            "descricao": ""
+        },
+        "melhoramentos": [
+            { "custo": 1, "efeito": "Além do normal, a arma também o protege, oferecendo +1 na Defesa."},
+            { "custo": 2, "efeito": "Aumenta o bônus na Defesa em +1."},
+            { "custo": 2, "efeito": "Muda a duração para sustentada. Além do normal, uma vez por rodada, você pode gastar uma ação livre para fazer a arma acertar automaticamente um alvo em alcance curto. Se a arma atacar, não poderá contra-atacar até seu próximo turno. Requer 2º círculo."},
+            { "custo": 2, "efeito": "Muda o tipo do dano para essência. Requer 2º círculo."},
+            { "custo": 5, "efeito": "Invoca duas armas, permitindo que você contra-ataque (ou ataque, se usar o aprimoramento acima) duas vezes por rodada. Requer 3º círculo."}
+        ]
+    },
+    "arma_magica": {
+        "id": 17,
+        "nome": "Arma Mágica",
+        "tipo": "Universal",
+        "circulo": 1,
+        "escola": "Transmutação",
+        "info": {
+            "execucao": "Padrão",
+            "alcance": "Toque",
+            "alvo": "1 arma",
+            "duracao": "Cena",
+            "resistencia": "-"
+        },
+        "descricao": "A arma fornece um bônus de +1 nos testes de ataque e rolagens de dano e é considerada mágica. Caso você esteja empunhando a arma, pode usar seu atributo-chave de magias em vez do atributo original nos testes de ataque.",
+        "truque": {
+            "existe": false,
+            "descricao": ""
+        },
+        "melhoramentos": [
+            { "custo": 2, "efeito": "Aumenta o bônus em +1, limitado pelo círculo máximo de magia que você pode lançar."},
+            { "custo": 2, "efeito": "A arma passa a causar +1d6 de dano de ácido, eletricidade, fogo ou frio, escolhido no momento em que a magia é lançada."}
+        ]
+    },
+    "armadura_arcana": {
+        "id": 18,
+        "nome": "Armadura Arcana",
+        "tipo": "Arcana",
+        "circulo": 1,
+        "escola": "Abjuração",
+        "info": {
+            "execucao": "Padrão",
+            "alcance": "Pessoal",
+            "alvo": "Você",
+            "duracao": "Cena",
+            "resistencia": "-"
+        },
+        "descricao": "Esta magia cria uma película protetora invisível, mas tangível, fornecendo +4 na Defesa. Esse bônus é cumulativo com outras magias, mas não com bônus fornecido por armaduras.",
+        "truque": {
+            "existe": false,
+            "descricao": ""
+        },
+        "melhoramentos": [
+            { "custo": 1, "efeito": "Muda a execução para reação. Em vez do normal, você cria um escudo mágico que fornece +6 na Defesa contra o próximo ataque que sofrer até o fim do turno atual."},
+            { "custo": 2, "efeito": "Aumenta o bônus na Defesa em +1."},
+            { "custo": 2, "efeito": "Muda a duração para 1 dia. Requer 2º círculo."}
+        ]
+    },
+    "armamento_da_natureza": {
+        "id": 19,
+        "nome": "Armamento da Natureza",
+        "tipo": "Divina",
+        "circulo": 1,
+        "escola": "Transmutação",
+        "info": {
+            "execucao": "Padrão",
+            "alcance": "Toque",
+            "alvo": "1 arma (veja texto)",
+            "duracao": "Cena",
+            "resistencia": "-"
+        },
+        "descricao": "Você fortalece uma arma mundana primitiva (sem custo em T$, como bordão, clava, funda ou tacape), uma arma natural ou um ataque desarmado. O dano da arma aumenta em um passo e ela é considerada mágica para propósitos de resistência a dano. Ao lançar a magia, você pode mudar o tipo de dano da arma (escolhendo entre corte, impacto ou perfuração).",
+        "truque": {
+            "existe": false,
+            "descricao": ""
+        },
+        "melhoramentos": [
+            { "custo": 1, "efeito": "Fornece +1 nos testes de ataque com a arma."},
+            { "custo": 2, "efeito": "Muda a execução para ação de movimento."},
+            { "custo": 3, "efeito": "Aumenta o bônus nos testes de ataque em +1."},
+            { "custo": 5, "efeito": "Aumenta o dano da arma em mais um passo."}
+        ]
+    },
+    "assassino_fantasmagorico": {
+        "id": 20,
+        "nome": "Assassino Fantasmagórico",
+        "tipo": "Arcana",
+        "circulo": 4,
+        "escola": "Necromancia",
+        "info": {
+            "execucao": "Padrão",
+            "alcance": "Longo",
+            "alvo": "1 criatura",
+            "duracao": "Cena, até ser descarregada",
+            "resistencia": "Vontade parcial, Fortitude parcial"
+        },
+        "descricao": "Usando os medos subconscientes do alvo, você cria uma imagem daquilo que ele mais teme. Apenas a própria vítima pode ver o Assassino Fantasmagórico com nitidez; outras criaturas presentes (incluindo o conjurador) enxergam apenas um espectro sombrio. O espectro surge adjacente a você e flutua em direção à vítima com deslocamento total de voo 18m por turno. Ele é incorpóreo e imune a magias. Se o espectro terminar seu turno em alcance curto da vítima, ela deve fazer um teste de Vontade. Se falhar, ficará abalada. Se o espectro terminar seu turno adjacente à vítima, ela deve fazer um teste de Fortitude. Se passar, sofre 6d6 pontos de dano de trevas (este dano não pode reduzir o alvo a menos de 0 PV e não o deixa sangrando). Se falhar, sofre um colapso, ficando imediatamente com –1 PV e sangrando. O espectro persegue o alvo implacavelmente. Ele só desaparece se deixar seu alvo inconsciente, se for dissipado ou ao término da cena.",
+        "truque": {
+            "existe": false,
+            "descricao": ""
+        },
+        "melhoramentos": [
+        ]
+    },
+    "augurio": {
+        "id": 21,
+        "nome": "Augúrio",
+        "tipo": "Divina",
+        "circulo": 2,
+        "escola": "Adivinhação",
+        "info": {
+            "execucao": "Completa",
+            "alcance": "Pessoal",
+            "alvo": "Você",
+            "duracao": "Instantânea",
+            "resistencia": "-"
+        },
+        "descricao": "Esta magia diz se uma ação que você tomará em breve — no máximo uma hora no futuro — trará resultados bons ou ruins. O mestre rola 1d6 em segredo; com um resultado de 2 a 6, a magia funciona e você recebe uma das seguintes respostas: “felicidade” (a ação trará bons resultados); “miséria” (a ação trará maus resultados); “felicidade e miséria” (para ambos) ou “nada” (para ações que não trarão resultados bons ou ruins). Com um resultado 1, a magia falha e oferece o resultado “nada”. Não há como saber se esse resultado foi dado porque a magia falhou ou não. Lançar esta magia múltiplas vezes sobre o mesmo assunto gera sempre o primeiro resultado. Por exemplo, se o grupo está prestes a entrar em uma câmara, o augúrio dirá “felicidade” se a câmara contém um tesouro desprotegido, “miséria” se contém um monstro, “felicidade e miséria” se houver um tesouro e um monstro ou “nada” se a câmara estiver vazia.",
+        "truque": {
+            "existe": false,
+            "descricao": ""
+        },
+        "melhoramentos": [
+            { "custo": 3, "efeito": "Muda a execução para 1 minuto. Em vez do normal, você pode consultar uma divindade, fazendo uma pergunta sobre um evento que acontecerá até um dia no futuro. O mestre rola a chance de falha; com um resul-tado de 2 a 6, você recebe uma resposta, desde uma simples frase até uma profecia ou enigma. Em geral, este uso sempre oferece pistas, indicando um caminho a tomar para descobrir a resposta que se procura. Numa falha você não recebe resposta alguma. Requer 3º círculo."},
+            { "custo": 7, "efeito": "Muda a execução para 10 minutos e a duração para 1 minuto. Em vez do normal, você consulta uma di-vindade, podendo fazer uma pergun-ta por rodada, desde que ela possa ser respondida com “sim”, “não” ou “não sei” (embora poderosos, os deu-ses não são oniscientes). O mestre rola a chance de falha para cada pergunta. Em caso de falha, a resposta também é “não sei”. Requer 4º círculo."},
+            { "custo": 7, "efeito": "O mestre rola 1d12; a magia só falha em um resultado 1."},
+            { "custo": 12, "efeito": "O mestre rola 1d20; a magia só falha em um resultado 1."}
+        ]
+    },
+    "aura_divina": {
+        "id": 22,
+        "nome": "Aura Divina",
+        "tipo": "Divina",
+        "circulo": 5,
+        "escola": "Abjuração",
+        "info": {
+            "execucao": "Padrão",
+            "alcance": "Pessoal",
+            "alvo": "Emanação de 9m de raio",
+            "duracao": "Cena",
+            "resistencia": "Vontade parcial"
+        },
+        "descricao": "Você se torna um condutor direto da energia de sua divindade, emanando uma aura brilhante da cor que escolher. Seus aliados na área recebem +5 na Defesa e em testes de resistência (você e aliados devotos da mesma divindade que você recebem +10) e ficam imunes a encantamento. Além disso, inimigos que entrem na área afetada devem fazer um teste de Vontade; em caso de falha, recebem uma condição a sua es-colha entre esmorecido, debilitado ou lento até o fim da cena. O teste deve ser refeito cada vez que a criatura entrar novamente na área.",
+        "truque": {
+            "existe": false,
+            "descricao": ""
+        },
+        "melhoramentos": [
+            { "custo": 2, "efeito": "Aumenta os bônus na Defesa e em testes de resistência em +1."}
+        ]
+    },
+    "aviso": {
+        "id": 23,
+        "nome": "Aura Divina",
+        "tipo": "Universal",
+        "circulo": 1,
+        "escola": "Abjuração",
+        "info": {
+            "execucao": "Movimento",
+            "alcance": "Longo",
+            "alvo": "1 criatura",
+            "duracao": "Instantânea",
+            "resistencia": "-"
+        },
+        "descricao": "Envia um aviso telepático para uma criatura, mesmo que não possa vê-la nem tenha linha de efeito. Escolha um:Alerta: o alvo recebe +5 em seu próximo teste de Iniciativa e de Percepção dentro da cena. Mensagem: o alvo recebe uma mensagem sua de até 25 palavras. Vocês devem ter um idioma em comum para o alvo poder entendê-lo. Localização: o alvo sabe onde você está naquele momento. Se você mudar de posição, ele não saberá.",
+        "truque": {
+            "existe": false,
+            "descricao": ""
+        },
+        "melhoramentos": [
+            { "custo": 1, "efeito": "Aumenta o alcance em um fator de 10 (90m para 900m, 900m para 9km e assim por diante)."},
+            { "custo": 1, "efeito": "Se escolher mensagem, o alvo pode enviar uma resposta de até 25 palavras para você até o fim de seu próximo turno."},
+            { "custo": 2, "efeito": "Se escolher localização, muda a duração para cena. O alvo sabe onde você está mesmo que você mude de posição."},
+            { "custo": 3, "efeito": "Aumenta o número de alvos em +1."}
+        ]
+    },
     "banimento": {},
     "barragem_elemental_de_vectorius": {},
     "bencao": {},
